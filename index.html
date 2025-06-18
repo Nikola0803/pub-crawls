@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      const password = "Ta192325,"
+      const input = prompt("Enter password to access:");
+      if (input !== password) {
+        document.body.innerHTML = "<h2 style='text-align:center;'>Access Denied</h2>";
+        throw new Error("Unauthorized access");
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strapi Venues Frontend</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
