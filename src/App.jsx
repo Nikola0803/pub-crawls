@@ -6,7 +6,7 @@ import {
   deleteVenue,
 } from "./api";
 import VenueForm from "./VenueForm";
-import "./App.css";
+import "./app.css";
 
 function App() {
   const [venues, setVenues] = useState([]);
